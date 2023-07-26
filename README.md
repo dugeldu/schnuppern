@@ -40,7 +40,7 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 Glückwunsch. Du hast erfolgreich [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) konfiguriert.
 Auf dem Proxmox-Server steht nun die Anweisung, dass du über den Webbrowser auf das Webgui von Proxmox gehen sollst.
 
-https://<IP>:8006
+https://IP:8006
 
 Nimm nun deinen zweiten PC und stecke nun das Displayport-Kabel von dem PC, den du bis jetzt benutzt hast um auf deinen zweiten PC. 
 Dort klickst du auf Google Chrome und gibst genau diese Adresse ein.           
