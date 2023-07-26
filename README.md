@@ -1,13 +1,13 @@
-# schnuppern
+# Schnuppern
 
 ## Gemeindeverwaltung Brienz
 
 Schnuppern
 
-Informatiker EFZ Systemtechnik
+Informatiker EFZ Plattformentwicklung
 
 Beaufsichtig durch:
-Patrik Zaugg, Sören Stegitz
+Josia Nietlispach, Sören Stegitz
 
 ## Auftrag:
 
@@ -18,7 +18,6 @@ In diesem Auftrag wird öfters der Begriff «Virtuelle Maschine» vorkommen. Wir
 Hilfsmittel:
 
 - Internet
-- Auftragsblätter
 - Mitarbeiter
 
 Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) an. Es ist die Grundlage des Projektes.
@@ -27,38 +26,32 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 
 1.  Nimm den von uns zur Verfügung gestellten USB Stick und stecke ihn in einen USB Port des PCs.
 1.  Boote nun von dem USB Stick. Um das zu tun starte den PC und drücke während des startens mehrmals die F12 Taste. Dies machst du solang bis du in das sogenannte Boot Menu kommst.
-1.  Hier kannst du nun mit Pfeiltasten navigieren. Navigiere nach unten bis du bei UEFI: USB landest und bestätige dies mit <kbd>Enter</kbd>
-1.  Nun bist du in Ventoy. Navigiere hier ebenfalls mit den Pfeiltasten nach unten bis du bei "proxmox-ve7.2.1.iso" landest und bestätige mit <kbd>Enter</kbd>
-1.  Sobald [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) gestartet hat kannst du auf "Install Proxmox VE" drücken.
-1.  Die EULA akzeptieren
-1.  Target Hardisk kannst du beim Standard belassen.
-1.  Bei Location and Timezone bei Country "Switzerland" auswählen.
-1.  Als Passwort "Welcome.2022" setzen.
-1.  Zuletzt kommt die Netzwerkkonfiguration. Benutze folgende Daten:
-
----
-
-**Netzwerkkonfiguration:**
-
-- Hostname: pveprobearbeiten.brienz.local
-- IP: 172.18.60.23
-- Gateway: 172.18.32.1
-- DNS: 10.108.41.138
-
+1.  Hier kannst du nun mit Pfeiltasten navigieren. Navigiere nach unten bis du bei Kingston.... landest und bestätige dies mit <kbd>Enter</kbd>
+1.  Sobald [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) gestartet hat kannst du auf "Install Proxmox VE (Graphical)" drücken
+1.  Bei der EULA klickst du auf "I agree"
+1.  Beim nächsten Fenster kannst du unten auf "Next" klicken
+1.  Bei Location and Timezone bei Country "Switzerland" auswählen und beim Tastatur Layout auf "Swiss-German" und dann weiter auf "Next"
+1.  Als Passwort "Welcome.2022" setzen und das Passwort bei "Confirm Password" nochmals wiederholen und bei der Email "schnuppernbrienz@gmail.com" eingeben
+1.  Netzwerkkonfiguration kannst du auch auf Standard belassen, also einfach auf "Next"
+1.  Zuletzt nun noch auf "Install"
+1.  Jetzt dauert es ein Bisschen, bis Proxmox installiert ist
 ---
 
 Glückwunsch. Du hast erfolgreich [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) konfiguriert.
-Nimm nun dein Laptop und rufe folgende URL in Chrome auf:
+Auf dem Proxmox-Server steht nun die Anweisung, dass du über den Webbrowser auf das Webgui von Proxmox gehen sollst.
 
-https://172.18.60.23:8006
+https://<IP>:8006
+
+Nimm nun deinen zweiten PC und stecke nun das Displayport-Kabel von dem PC, den du bis jetzt benutzt hast um auf deinen zweiten PC. 
+Dort klickst du auf Google Chrome und gibst genau diese Adresse ein.           
 
 Melde dich als "_root_" mit dem von dir gesetzten Passwort an.  
-Du bist nun auf dem Webgui von [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE). Von hier aus kannst du Virtuelle Maschinen erstellen, konfogurieren, überwachen und vieles mehr. Schau dich gerne ein wenig um.
+Du bist nun auf dem Webgui von [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE). Von hier aus kannst du Virtuelle Maschinen erstellen, konfigurieren, überwachen und vieles mehr. Schau dich gerne ein wenig um.
 
-Versuche nun herauszufinden wie man eine neue VM erstellen kann und tu dies anschliessend mit den untenstehenden angaben.
+Klicke nun oben rechts auf Create VM und kreeire eine VM mit genau diesen Angaben 
 
 - General:
-  - Node: pveprobearbeiten
+  - Node: so belassen wie es ist
 - VM ID: 100
 - Name: Docker
 - OS:
