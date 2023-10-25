@@ -39,12 +39,15 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 
 Glückwunsch. Du hast erfolgreich [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) konfiguriert.
 Auf dem Proxmox-Server steht nun die Anweisung, dass du über den Webbrowser auf das Webgui von Proxmox gehen sollst.
-
+Schreibe dir die IP-Adresse nun auf.
 https://IP:8006
 
-Öffne nun ein weiteres Browserfenster auf dem Laptop.
-Dort gibst du dann genau dieses https://.. ein.
+Nun kannst du den zweiten PC starten. 
+Gleichzeitig steckst das Displayportkabel, das Kabel der Maus und das der Tastatur vom linken in den rechten grossen PC.
+Wenn du Hilfe brauchst -> ungeniert fragen :)
 
+Dort öffnest du nun ein Browserfenster im Google Chrome und gibst oben im Suchfeld die eben aufgeschriebene Adresse ein.
+"_https://172.18....:8006_"
 Damit greifst du auf deinen Proxmox Server zu über das Netz. Hier werden wir dann einige spannende Dinge einrichten ;)
 
 Melde dich als "_root_" mit dem Passwort, dass du vorhin gesetzt hast an ("_Welcome.2022_")
@@ -90,9 +93,21 @@ Klicke nun oben rechts auf Create [VM](https://de.wikipedia.org/wiki/Virtuelle_M
 
 Super. Du hast nun deine erste [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) erstellt. Starte diese. Das Linux auf der VM muss jetzt noch eingerichtet werden, damit wir anschliessend den Dienst [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) auf ihr installieren können.
 
-Die Grundkonfiguration der VM musst du vorerst noch über die Console in Proxmox machen. Anschliessend wechseln wir zum Windows Terminal.
+Nun klickst du oben rechts in der Baumstruktur auf deine VM; 100 (Docker)
+Dort dann auf Console klicken.
 
-Richte die VM nun ein. Du kannst das meiste bei den Standardeinstellungen belassen. Einzig die Sprache und das Tastatur Layout musst du einstellen. Achte darauf das du als Sprache **English** auswählst.
+Nun "_Try or Install Ubuntu anwählen_".
+
+Folgendermassen gehst du nun durch die Installation deines Ubuntu-Servers
+1.  Sprache: English
+1.  Continue without updating
+2.  Hier alles belassen wie es ist und einfach auf "_Done_"
+3.  Beim nächsten Fenster sicherstellen, dass oben "_Ubuntu Server_" angekreuzt ist -> Done
+4.  Bei den Netzwerkeinstellungen auch alles so lassen wie es ist -> Done
+5.  Bei Proxy auch lassen -> Done
+6.  Mirror auch lassen -> Done
+7.  
+8.  
 
 > **Hinweis: Merke dir die IP der VM, diese wirst du später brauchen.**
 
