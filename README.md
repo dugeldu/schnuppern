@@ -134,11 +134,12 @@ Sobald die Installation abgeschlossen ist, machst du folgendes:
 
 
 > **Nun konsultiere mich bitte kurz, dann verbinden wir uns per SSH mit der VM mit deinem Laptop.**
+
+---
 Jetzt sollte dort "_docker login_" stehen.
 Dann loggst du dich ein mit den zuvor konfigurierten Benutzerangaben.
 User: sysadmin
 Passwort: Welcome.2022
----
 
 Nun müssen wir [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) installieren. In [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) werden später unsere Dienste laufen.
 Um [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zu installieren musst du die folgenden Befehle eingeben -> kopiere diese einfach ins Terminal hinein, abtippen dauert zu lange: 
