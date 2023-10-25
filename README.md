@@ -69,19 +69,24 @@ Klicke nun oben rechts auf Create [VM](https://de.wikipedia.org/wiki/Virtuelle_M
 - OS:
   - Storage: local
   - ISO-Image: ubuntu-22.04.1-live-server-amd64.iso
-  - Guest OS: Linux
-  - Version: 5.x – 2.6 Kernel
+  - Type: Linux
+  - Version: 6.x -2.6 Kernel
 - System:
-  - Qemu Agent ankreuzen, den rest beim Default belassen
+  - Qemu Agent ankreuzen, den Rest so lassen wie es ist
 - Disks:
-  - Disk Size (GiB): 100 GB
+  - Disk Size (GiB): 100 GB, Rest beim Standard belassen
 - CPU:
   - Sockets: 1
   - Cores: 8
+  - Rest: Standard
 - Memory:
   - Memory (MiB): 8192
 - Network:
   - Alles so belassen
+ 
+- Confirm:
+  - Start after created ankreuzen
+  - Dann auf "_Finish_"
 
 Super. Du hast nun deine erste [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) erstellt. Starte diese. Das Linux auf der VM muss jetzt noch eingerichtet werden, damit wir anschliessend den Dienst [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) auf ihr installieren können.
 
