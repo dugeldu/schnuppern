@@ -45,7 +45,7 @@ https://IP:8006
 Öffne nun ein weiteres Browserfenster auf dem Laptop.
 Dort gibst du dann genau dieses https://.. ein.
 
-Melde dich als "_root_" mit dem Passwort, dass du vorhin gesetzt hast an "Welcome.2022"  
+Melde dich als "_root_" mit dem Passwort, dass du vorhin gesetzt hast an ("_Welcome.2022_")
 Du bist nun auf dem Webgui von [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE). Von hier aus kannst du Virtuelle Maschinen erstellen, konfigurieren, überwachen und vieles mehr. Schau dich gerne ein wenig um.
 
 Klicke nun oben rechts auf Create [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) und kreeire eine [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) mit genau diesen Angaben 
