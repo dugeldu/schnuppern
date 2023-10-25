@@ -110,7 +110,7 @@ Folgendermassen gehst du nun durch die Installation deines Ubuntu-Servers
 9.  Storage Configuration -> Done
 10.  Continue
 
-> **Hinweis: Merke dir die IP der VM, diese wirst du später brauchen.**
+> **Hinweis: Schreibe dir die IP der VM auf, diese wirst du später brauchen.**
 
 Als finalen Schritt musst du nun die Benutzerangaben konfigurieren. Mache dies wie folgt:
 
@@ -119,21 +119,29 @@ Als finalen Schritt musst du nun die Benutzerangaben konfigurieren. Mache dies w
 - Username: sysadmin
 - Passwort: Welcome.2022
 > **Hinweis: Überprüfe deine Angaben nochmals, und stelle sicher dass alles richtig ist. Womöglich sind Y und Z bei deinen Eingaben vertauscht**
+- Nachdem du deine Angaben korrigiert hast:
 - Upgrade: "_Skip for now_" -> Done
 - Install OpenSSH server: Ankreuzen mit der Leertaste, danach mit der Pfeiltaste zu "_Done_" navigieren
 - Featured Server Snaps: Keine ankreuzen -> Done
 
 Die VM installiert sich nun. Dies dauert einen Moment.
+Sobald die Installation abgeschlossen ist, machst du folgendes:
+- Klick im Menü links im Proxmox Webgui unter "_Console_" kurz auf "_Hardware_"
+- Dort auf CD/DVD Drive
+- Und dort entfernst du unser Ubuntu Image mithilfe von "_Remove_", wenn du dir unsicher bist -> besser fragen
+- Nun gehst du wieder zurück zu "_Console_"
+- Dann die soeben installierte VM neu starten mit "Reboot Now".
 
-Sobald die VM die Installation abgeschlossen hat, kannst du dich per SSH und dem Windows Terminal mit der VM verbinden. Dies erleichtert die Arbeit um einiges.  
-Wenn du über das Terminal mit der VM verbunden bist, kannst du z.B. Funktionen wie Copy&Paste verwenden.
 
-Solltest du nicht wissen wie man sich per SSH verbindet kannst du im Internet nach einer Anleitung suchen wie man sich per SSH mit einem Linux Server verbindet.
-
+> **Nun konsultiere mich bitte kurz, dann verbinden wir uns per SSH mit der VM mit deinem Laptop.**
+Jetzt sollte dort "_docker login_" stehen.
+Dann loggst du dich ein mit den zuvor konfigurierten Benutzerangaben.
+User: sysadmin
+Passwort: Welcome.2022
 ---
 
 Nun müssen wir [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) installieren. In [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) werden später unsere Dienste laufen.
-Um [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zu installieren musst du die folgenden Befehle eingeben:
+Um [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zu installieren musst du die folgenden Befehle eingeben -> kopiere diese einfach ins Terminal hinein, abtippen dauert zu lange: 
 
 ```
 sudo apt-get update
