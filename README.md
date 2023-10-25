@@ -1,6 +1,6 @@
 # Schnuppern
 
-## Gemeindeverwaltung Brienz
+## Gemeindeverwaltung Brienz 
 
 Schnuppern
 
