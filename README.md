@@ -31,7 +31,7 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 1.  Bei der EULA klickst du auf "I agree"
 1.  Beim nächsten Fenster kannst du unten auf "Next" klicken
 1.  Bei Location and Timezone bei Country "Switzerland" auswählen und beim Tastatur Layout auf "Swiss-German" und dann weiter auf "Next"
-1.  Als Passwort "Welcome.2022" setzen und das Passwort bei "Confirm Password" nochmals wiederholen und bei der Email "schnuppernbrienz@gmail.com" eingeben
+1.  Als Passwort "Welcome.2022" setzen und das Passwort bei "Confirm Password" nochmals wiederholen und bei der Email "schnuppernbrienz@gmail.com" eingeben, dann "Next"
 1.  Netzwerkkonfiguration kannst du auch auf Standard belassen, also einfach auf "Next"
 1.  Zuletzt nun noch auf "Install"
 1.  Jetzt dauert es ein Bisschen, bis Proxmox installiert ist
@@ -42,13 +42,13 @@ Auf dem Proxmox-Server steht nun die Anweisung, dass du über den Webbrowser auf
 
 https://IP:8006
 
-Nimm nun deinen zweiten PC und stecke nun das Displayport-Kabel von dem PC, den du bis jetzt benutzt hast um auf deinen zweiten PC. 
-Dort klickst du auf Google Chrome und gibst genau diese Adresse ein.           
+Öffne nun ein weiteres Browserfenster auf dem Laptop.
+Dort gibst du dann genau dieses https://.. ein.
 
-Melde dich als "_root_" mit dem von dir gesetzten Passwort an.  
+Melde dich als "_root_" mit dem Passwort, dass du vorhin gesetzt hast an "Welcome.2022"  
 Du bist nun auf dem Webgui von [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE). Von hier aus kannst du Virtuelle Maschinen erstellen, konfigurieren, überwachen und vieles mehr. Schau dich gerne ein wenig um.
 
-Klicke nun oben rechts auf Create VM und kreeire eine VM mit genau diesen Angaben 
+Klicke nun oben rechts auf Create [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) und kreeire eine [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) mit genau diesen Angaben 
 
 - General:
   - Node: so belassen wie es ist
@@ -71,7 +71,7 @@ Klicke nun oben rechts auf Create VM und kreeire eine VM mit genau diesen Angabe
 - Network:
   - Alles so belassen
 
-Super. Du hast nun deine erste VM erstellt. Starte diese. Das Linux auf der VM muss jetzt noch eingerichtet werden, damit wir anschliessend den Dienst [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) auf ihr installieren können.
+Super. Du hast nun deine erste [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) erstellt. Starte diese. Das Linux auf der VM muss jetzt noch eingerichtet werden, damit wir anschliessend den Dienst [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) auf ihr installieren können.
 
 Die Grundkonfiguration der VM musst du vorerst noch über die Console in Proxmox machen. Anschliessend wechseln wir zum Windows Terminal.
 
