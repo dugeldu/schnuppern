@@ -54,8 +54,7 @@ Damit wir später eine VM kreeiren können, brauchen wir noch ein ISO-Image, das
 
 Diese musst du nur noch hochladen auf deinen Proxmox-Server. 
 Klicke dich dafür zunächst durch die Baumstruktur oben rechts.
-> Datacenter
-> pve
+Datacenter > pve
 Dort auf "_local (pve)_" klicken.
 Dann auf "_ISO Images_" -> Upload -> Select File -> Downloads -> Klick auf ubuntu-22.04.3-live-server-amd64 -> "_öffnen_" -> "_Upload_"
 
