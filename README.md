@@ -106,21 +106,24 @@ Folgendermassen gehst du nun durch die Installation deines Ubuntu-Servers
 4.  Bei den Netzwerkeinstellungen auch alles so lassen wie es ist -> Done
 5.  Bei Proxy auch lassen -> Done
 6.  Mirror auch lassen -> Done
-7.  
-8.  
+7.  Beim Fenster "_Guided storage configuration_" musst du auf die Pfeiltaste nach unten klicken, bis die Option "_Done_" grün markiert ist. Danach Enter
+9.  Storage Configuration -> Done
+10.  Continue
 
 > **Hinweis: Merke dir die IP der VM, diese wirst du später brauchen.**
 
 Als finalen Schritt musst du nun die Benutzerangaben konfigurieren. Mache dies wie folgt:
 
 - Name: Dein Name
-- Servername: Docker
+- Servername: docker
 - Username: sysadmin
 - Passwort: Welcome.2022
-- Install OpenSSH server: Ja
-- Featured Server Snaps: Keine
+> **Hinweis: Überprüfe deine Angaben nochmals, und stelle sicher dass alles richtig ist. Womöglich sind Y und Z bei deinen Eingaben vertauscht**
+- Upgrade: "_Skip for now_" -> Done
+- Install OpenSSH server: Ankreuzen mit der Leertaste, danach mit der Pfeiltaste zu "_Done_" navigieren
+- Featured Server Snaps: Keine ankreuzen -> Done
 
-Die VM installiert sich nun.
+Die VM installiert sich nun. Dies dauert einen Moment.
 
 Sobald die VM die Installation abgeschlossen hat, kannst du dich per SSH und dem Windows Terminal mit der VM verbinden. Dies erleichtert die Arbeit um einiges.  
 Wenn du über das Terminal mit der VM verbunden bist, kannst du z.B. Funktionen wie Copy&Paste verwenden.
