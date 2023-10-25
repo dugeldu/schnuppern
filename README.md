@@ -4,7 +4,7 @@
 
 Schnuppern
 
-Informatiker EFZ Plattformentwicklung
+Informatiker EFZ Plattformentwicklung 
 
 Beaufsichtig durch:
 Josia Nietlispach, Sören Stegitz
