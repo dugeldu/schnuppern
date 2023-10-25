@@ -138,7 +138,9 @@ Sobald die Installation abgeschlossen ist, machst du folgendes:
 ---
 Jetzt sollte dort "_docker login_" stehen.
 Dann loggst du dich ein mit den zuvor konfigurierten Benutzerangaben.
+
 User: sysadmin
+
 Passwort: Welcome.2022
 
 Nun müssen wir [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) installieren. In [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) werden später unsere Dienste laufen.
