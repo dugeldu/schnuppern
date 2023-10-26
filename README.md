@@ -189,22 +189,9 @@ Installiere jetzt noch [Docker-Compose](https://docs.docker.com/compose/), wir w
 ```
 sudo apt install docker-compose -y
 ```
-
-Sobald du [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) installiert hast, kannst du Portainer darauf installieren.
-
-Wie man [Portainer](https://www.portainer.io/) installiert findest du in folgender Anleitung:
-
-> https://docs.portainer.io/start/install/server/docker/linux
-
-Verwende beim Einrichten von [Portainer](https://www.portainer.io/) das Passwort: **Welcome.2022**
-
-Super! Du hast nun deine erste Virtualisierte [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) Umgebung installiert und konfiguriert.
-
-Nun kannst du damit anfangen deine ersten Dienste darauf zu installieren.
-
 ---
 
-Folgende Dienste müssen in [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zum Laufen gebracht werden. Versuche dies mit [Portainer](https://www.portainer.io/) und [Docker-Compose](https://docs.docker.com/compose/) zu tun.
+Folgende Dienste müssen in [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zum Laufen gebracht werden.
 Bevor du jeweils mit dem nächsten Dienst anfängst, teste ob alles funktioniert.
 
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma)
