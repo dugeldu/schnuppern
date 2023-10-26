@@ -179,21 +179,24 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 sudo service docker start
 ```
+Jetzt wollen wir Portainer installieren. Damit können wir unsere Container über eine grafische Oberfläche verwalten.
+Folgendermassen installieren wir das:
 
-[Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) ist nun installiert. Um zu testen ob es funktioniert, kannst du den Befehl **sudo docker run hello-world** verwenden.
-
----
-
-Jetzt wollen wir mit einem Container einen Dienst namens [Paperless](<https://docs.paperless-ngx.com>) zum Laufen bringen
-Dafür gibst du folgende Befehle ein
-
+Zuerst kreieren wir ein Volume;
 ```
-sudo docker run -d \
+sudo docker volume create portainer_data
 ```
 
 ```
---name=paperless-ngx \
+docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 ```
+
+Damit hast du nun deinen ersten Container erstellt, auf welchem nun Portainer läuft.
+Nun kannst du auf dem PC, wo du das Proxmox-Webinterface geöffnet hast, ein weiteres Browserfenster öffnen.
+
+Dort gibst du dann wieder die IP 
+Hier kannst du dich nun mit dem Benutzernamen "_admin_" und dem Passwort "_Welcome.2022_" anmelden.
+
 
 ```
 -p 8000:8000 \
@@ -203,3 +206,5 @@ sudo docker run -d \
 lscr.io/linuxserver/paperless-ngx:latest
 ```
 
+Jetzt wollen wir mit einem Container einen Dienst namens [Paperless](<https://docs.paperless-ngx.com>) zum Laufen bringen
+Dafür gibst du folgende Befehle ein
