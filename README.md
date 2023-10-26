@@ -184,23 +184,22 @@ sudo service docker start
 
 ---
 
-Installiere jetzt noch [Docker-Compose](https://docs.docker.com/compose/), wir werden es später brauchen:
+Jetzt wollen wir mit einem Container einen Dienst namens [Paperless](<https://docs.paperless-ngx.com>) zum Laufen bringen
+Dafür gibst du folgende Befehle ein
 
 ```
-sudo apt install docker-compose -y
+sudo docker run -d \
 ```
----
 
-Folgende Dienste müssen in [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zum Laufen gebracht werden.
-Bevor du jeweils mit dem nächsten Dienst anfängst, teste ob alles funktioniert.
+```
+--name=paperless-ngx \
+```
 
-- [Uptime Kuma](https://github.com/louislam/uptime-kuma)
-  Erstelle in Uptime Kuma ein Monitor für eine beliebige Website.
-- [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
-  Lade in Paperless mindestens 3 PDFs hoch und deklariere diese richtig.
-- [AdGuard Home](https://hub.docker.com/r/adguard/adguardhome)
-- [BookStack](https://github.com/BookStackApp/BookStack)
+```
+-p 8000:8000 \
+```
 
+```
+lscr.io/linuxserver/paperless-ngx:latest
+```
 
-- https://hub.docker.com/r/linuxserver/paperless-ngx
-- https://codeopolis.com/posts/how-to-install-adguard-home-using-docker/
