@@ -3,7 +3,7 @@
 ## Gemeindeverwaltung Brienz 
 
 Schnuppern
-
+ 
 Informatiker EFZ Plattformentwicklung 
 
 Beaufsichtig durch:
