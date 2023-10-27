@@ -55,7 +55,7 @@ Du bist nun auf dem Webgui von [Proxmox](https://de.wikipedia.org/wiki/Proxmox_V
 
 Damit wir später eine VM kreiren können, brauchen wir noch ein ISO-Image, das später auf der VM installiert werden soll. Wir nehmen dafür ein Ubuntu-Image, das ich bereits auf deinem Laptop platziert habe.
 
-Diese musst du nur noch hochladen auf deinen Proxmox-Server. 
+Dieses musst du nur noch hochladen auf deinen Proxmox-Server. 
 Klicke dich dafür zunächst durch die Baumstruktur oben rechts.
 Datacenter > pve
 
