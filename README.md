@@ -206,6 +206,15 @@ Und zwar wollen wir mit einem Container einen Dienst namens [Paperless](<https:/
 Dafür klickst du nun auf folgenden Link:
 
 [https://github.com/paperless-ngx/blob/dev/docker/compose/docker-compose.portainer.yml](https://github.com/paperless-ngx/paperless-ngx/blob/dev/docker/compose/docker-compose.portainer.yml)
+
+Dort klickst du auf "_Raw_".
+Nun öffnet sich ein Fenster mit all dem Geschriebenen.
+Jetzt klickst du Ctrl + A, danach Ctrl + C und dann gehst du wieder zu Portainer zurück und fügst das Ganze wieder in dieses Feld ein.
+
+Nun gibst du dem erstellten Stack noch einen Namen, z.B "Teststack".
+
+Danach kannst du auf "_Deploy Stack_" und schon ist unser
+
 ```
 -p 8000:8000 \
 ```
