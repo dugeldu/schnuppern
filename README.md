@@ -43,6 +43,7 @@ Auf dem Proxmox-Server steht nun die Anweisung, dass du über den Webbrowser auf
 Schreibe dir die IP-Adresse nun auf.
 https://IP:8006
 
+## Installation VM
 Nun kannst du den zweiten PC starten. 
 Gleichzeitig steckst das Displayportkabel, das Kabel der Maus und das der Tastatur vom linken in den rechten grossen PC.
 Wenn du Hilfe brauchst -> ungeniert fragen :)
@@ -140,7 +141,7 @@ Sobald die Installation abgeschlossen ist, machst du folgendes:
 > **Nun konsultiere mich bitte kurz, dann verbinden wir uns per SSH mit der VM mit deinem Laptop.**
 
 ---
-
+## Installation Docker
 Nun müssen wir [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) installieren. In [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) werden später unsere Dienste laufen.
 Um [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zu installieren musst du die folgenden Befehle eingeben -> kopiere diese einfach ins Terminal hinein, abtippen dauert zu lange: 
 
@@ -189,6 +190,8 @@ sudo docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/do
 ```
 
 Damit hast du nun deinen ersten Container erstellt, auf welchem nun Portainer läuft.
+
+## Konfiguration Portainer
 Nun kannst du auf dem PC, wo du das Proxmox-Webinterface geöffnet hast, ein weiteres Browserfenster öffnen.
 Dort gibst du nun die aufgeschriebene IP deiner VM ein mit dem Port 9443
 https://172...:9443
@@ -200,6 +203,7 @@ Hier klickst du nun auf "_Get Started_".
 Danach wird dir eine Umgebung angezeigt namens "_local_".
 Öffne diese.
 
+## Bereitstellung Paperless
 Links hast du nun eine Menüleiste
 - Klick auf "_Stacks_"
 - Oben rechts dann auf "_Add Stack_"
