@@ -190,7 +190,7 @@ sudo docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/do
 
 Damit hast du nun deinen ersten Container erstellt, auf welchem nun Portainer läuft.
 Nun kannst du auf dem PC, wo du das Proxmox-Webinterface geöffnet hast, ein weiteres Browserfenster öffnen.
-
+Dort gibst du nun die aufgeschriebene IP deiner VM ein mit dem Port 9443
 https://172...:9443
 
 Hier kannst du dich nun mit dem Benutzernamen "_admin_" und dem Passwort "_Welcome.2022_" anmelden.
