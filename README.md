@@ -226,8 +226,29 @@ Danach kannst du auf "_Deploy the Stack_" ganz unten
 
 ---
 Nun wollen wir noch einen User generieren für dein Paperless
-
-Dafür folgenden Befehl eingeben in der Konsole:
+Dafür müssen wir in die Konsole im Container drin.
+- Klick auf "_Containers_" in Portainer
+- Dann klickst du auf "_teststack-webserver..._"
+- Unten hast du nun eine Leiste mit verschiedenen funktionen wie "_Logs_", "_Inspect_", "_Stats_" etc.
+- Wir klicken hier auf "_Console_"
+- Dann einfach auf "_Connect_"
+- Und nun geben wir folgenden Befehl ein:
 ```
 python3 manage.py createsuperuser
 ```
+- Bei Username gibst du "_admin_" an.
+- PW: "_Welcome.2022_" wie du es dir gewohnt bist ;)_" 
+
+Nun öffnest du nochmals einen neuen Tab im Chrome und tippst dort die IP von der VM und den entsprechenden Port, welcher in dem Fall 8010 ist ein.
+
+http://IP:8010
+
+Dort meldest du dich nun mit deinem vorhin erstellten User an.
+Nun solltest du die Oberfläche von Paperless sehen.
+
+- Jetzt klickst du rechts bei Upload new documents auf "_Browse files_"
+- Dann auf "_Desktop_"
+- Danach wählst du das "_Dokument.rtf_" an
+- Und dann auf "_öffnen_"
+
+
