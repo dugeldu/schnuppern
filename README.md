@@ -227,7 +227,7 @@ Danach kannst du auf "_Deploy the Stack_" ganz unten
 ---
 Nun wollen wir noch einen User generieren für dein Paperless
 
-Dafür 
+Dafür folgenden Befehl eingeben in der Konsole:
 ```
 python3 manage.py createsuperuser
 ```
