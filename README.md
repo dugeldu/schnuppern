@@ -60,7 +60,9 @@ Klicke dich dafür zunächst durch die Baumstruktur oben rechts.
 Datacenter > pve
 
 Dort auf "_local (pve)_" klicken.
-Dann auf "_ISO Images_" -> Upload -> Select File -> Downloads -> Klick auf ubuntu-22.04.3-live-server-amd64 -> "_öffnen_" -> "_Upload_"
+Dann auf "_ISO Images_" -> Upload -> Select File -> Downloads -> Klick auf ubuntu-22.04.3-live-server-amd64 -> "_öffnen_" -> "_Upload_".
+
+Dann öffnet sich so ein Fenster, dass du einfach schliessen kannst, also nicht auf Download klicken.
 
 Klicke nun oben rechts auf Create [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) und kreeire eine [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) mit genau diesen Angaben 
 
