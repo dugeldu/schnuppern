@@ -138,12 +138,6 @@ Sobald die Installation abgeschlossen ist, machst du folgendes:
 > **Nun konsultiere mich bitte kurz, dann verbinden wir uns per SSH mit der VM mit deinem Laptop.**
 
 ---
-Jetzt sollte dort "_docker login_" stehen.
-Dann loggst du dich ein mit den zuvor konfigurierten Benutzerangaben.
-
-User: sysadmin
-
-Passwort: Welcome.2022
 
 Nun müssen wir [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) installieren. In [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) werden später unsere Dienste laufen.
 Um [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zu installieren musst du die folgenden Befehle eingeben -> kopiere diese einfach ins Terminal hinein, abtippen dauert zu lange: 
@@ -189,7 +183,7 @@ sudo docker volume create portainer_data
 ```
 
 ```
-docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+sudo docker run -d -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 ```
 
 Damit hast du nun deinen ersten Container erstellt, auf welchem nun Portainer läuft.
