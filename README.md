@@ -107,7 +107,7 @@ Folgendermassen gehst du nun durch die Installation deines Ubuntu-Servers
 3.  Beim nächsten Fenster sicherstellen, dass oben "_Ubuntu Server_" angekreuzt ist -> Done
 4.  Bei den Netzwerkeinstellungen auch alles so lassen wie es ist -> Done
 5.  Bei Proxy auch lassen -> Done
-6.  Mirror auch lassen -> Done
+6.  Mirror auch lassen -> Done -> Continue
 7.  Beim Fenster "_Guided storage configuration_" musst du auf die Pfeiltaste nach unten klicken, bis die Option "_Done_" grün markiert ist. Danach Enter
 9.  Storage Configuration -> Done
 10.  Continue
@@ -121,8 +121,8 @@ Als finalen Schritt musst du nun die Benutzerangaben konfigurieren. Mache dies w
 - Username: sysadmin
 - Passwort: Welcome.2022
 > **Hinweis: Überprüfe deine Angaben nochmals, und stelle sicher dass alles richtig ist. Womöglich sind Y und Z bei deinen Eingaben vertauscht**
-- Nachdem du deine Angaben korrigiert hast:
-- Upgrade: "_Skip for now_" -> Done
+- Nachdem du deine Angaben korrigiert hast: Done
+- Upgrade: "_Skip for now_" -> Continue
 - Install OpenSSH server: Ankreuzen mit der Leertaste, danach mit der Pfeiltaste zu "_Done_" navigieren
 - Featured Server Snaps: Keine ankreuzen -> Done
 
