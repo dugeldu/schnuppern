@@ -250,5 +250,7 @@ Nun solltest du die Oberfläche von Paperless sehen.
 - Dann auf "_Desktop_"
 - Danach wählst du das "_Dokument.rtf_" an
 - Und dann auf "_öffnen_"
+- Unter Documents im Paperless, hast du nun dein erstes Dokument hochgeladen.
+- Herzlichen Glückwunsch ;)
 
 
