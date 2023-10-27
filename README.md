@@ -209,7 +209,7 @@ Dafür klickst du nun auf folgenden Link:
 
 Dort klickst du auf "_Raw_".
 Nun öffnet sich ein Fenster mit all dem Geschriebenen.
-Jetzt klickst du Ctrl + A, danach Ctrl + C und dann gehst du wieder zu Portainer zurück und fügst das Ganze wieder in dieses Feld ein.
+Jetzt klickst du <kbd>Ctrl + A</kbd>, danach <kbd>Ctrl + C</kbd> und dann gehst du wieder zu Portainer zurück und fügst das Ganze wieder in dieses Feld ein.
 
 Nun gibst du dem erstellten Stack noch einen Namen, z.B "Teststack".
 
