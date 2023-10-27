@@ -26,7 +26,7 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 
 1.  Nimm den von uns zur Verfügung gestellten USB Stick und stecke ihn in einen USB Port des PCs.
 1.  Boote nun von dem USB Stick. Um das zu tun starte den PC und drücke während des startens mehrmals die F12 Taste. Dies machst du solang bis du in das sogenannte Boot Menu kommst.
-1.  Hier kannst du nun mit Pfeiltasten navigieren. Navigiere nach unten bis du bei Kingston.... landest und bestätige dies mit <kbd>Enter</kbd>
+1.  Hier kannst du nun mit Pfeiltasten navigieren. Navigiere nach unten bis du bei UEFI USB SanDisk.... landest und bestätige dies mit <kbd>Enter</kbd>
 1.  Sobald [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) gestartet hat kannst du auf "Install Proxmox VE (Graphical)" drücken
 1.  Bei der EULA klickst du auf "I agree"
 1.  Beim nächsten Fenster kannst du unten auf "Next" klicken
