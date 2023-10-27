@@ -195,7 +195,6 @@ https://172...:9443
 
 Hier kannst du dich nun mit dem Benutzernamen "_admin_" und dem Passwort "_Welcome.2022_" anmelden.
 
->**hier gibst du noch eine anleitung an von portainer bis compose**
 Nun bist du auf der Oberfläche von Portainer.
 Hier klickst du nun auf "_Get Started_".
 Danach wird dir eine Umgebung angezeigt namens "_local_".
