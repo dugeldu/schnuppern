@@ -222,4 +222,12 @@ Dafür machst du folgendes
 - Jetzt klickst du <kbd>Ctrl + A</kbd>, danach <kbd>Ctrl + C</kbd> und dann gehst du wieder zu Portainer zurück und fügst 
   das Ganze in den Web-Editor ein mit <kbd>Ctrl + V</kbd>.
 
-Danach kannst du auf "_Deploy Stack_"
+Danach kannst du auf "_Deploy the Stack_" ganz unten
+
+---
+Nun wollen wir noch einen User generieren für dein Paperless
+
+Dafür 
+```
+python3 manage.py createsuperuser
+```
