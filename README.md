@@ -35,6 +35,7 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 1.  Netzwerkkonfiguration kannst du auch auf Standard belassen, also einfach auf "Next"
 1.  Zuletzt nun noch auf "Install"
 1.  Jetzt dauert es ein Bisschen, bis Proxmox installiert ist
+2.  Dann auf "_Reboot_"
 ---
 
 Glückwunsch. Du hast erfolgreich [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) konfiguriert.
