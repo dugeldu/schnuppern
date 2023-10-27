@@ -105,14 +105,14 @@ Folgendermassen gehst du nun durch die Installation deines Ubuntu-Servers
 1.  Continue without updating
 2.  Hier alles belassen wie es ist und einfach auf "_Done_"
 3.  Beim nächsten Fenster sicherstellen, dass oben "_Ubuntu Server_" angekreuzt ist -> Done
-4.  Bei den Netzwerkeinstellungen auch alles so lassen wie es ist -> Done
-5.  Bei Proxy auch lassen -> Done
-6.  Mirror auch lassen -> Done -> Continue
-7.  Beim Fenster "_Guided storage configuration_" musst du auf die Pfeiltaste nach unten klicken, bis die Option "_Done_" grün markiert ist. Danach Enter
-9.  Storage Configuration -> Done
-10.  Continue
-
-> **Hinweis: Schreibe dir die IP der VM auf, diese wirst du später brauchen.**
+4.  Bei den Netzwerkeinstellungen auch alles so lassen wie es ist aber hier etwas wichtiges noch kurz
+  > **Schreibe dir die IP der VM auf, diese wirst du später brauchen.**
+6.  Wenn du die IP-Adresse aufgeschrieben hast -> Done
+7.  Bei Proxy auch lassen -> Done
+8.  Mirror auch lassen -> Done -> Continue
+9.  Beim Fenster "_Guided storage configuration_" musst du auf die Pfeiltaste nach unten klicken, bis die Option "_Done_" grün markiert ist. Danach Enter
+10.  Storage Configuration -> Done
+11.  Continue
 
 Als finalen Schritt musst du nun die Benutzerangaben konfigurieren. Mache dies wie folgt:
 
