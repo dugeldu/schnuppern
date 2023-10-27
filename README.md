@@ -205,7 +205,7 @@ Und zwar wollen wir mit einem Container einen Dienst namens [Paperless](<https:/
 
 Dafür klickst du nun auf folgenden Link:
 
-https://github.com/paperless-ngx/blob/dev/docker/compose/docker-compose.portainer.yml
+[https://github.com/paperless-ngx/blob/dev/docker/compose/docker-compose.portainer.yml](https://github.com/paperless-ngx/paperless-ngx/blob/dev/docker/compose/docker-compose.portainer.yml)
 ```
 -p 8000:8000 \
 ```
