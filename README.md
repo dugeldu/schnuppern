@@ -47,7 +47,8 @@ Nun kannst du den zweiten PC starten.
 Gleichzeitig steckst das Displayportkabel, das Kabel der Maus und das der Tastatur vom linken in den rechten grossen PC.
 Wenn du Hilfe brauchst -> ungeniert fragen :)
 
-Dort öffnest du nun ein Browserfenster im Google Chrome und gibst oben im Suchfeld die eben aufgeschriebene Adresse ein.
+Dort loggst du dich mit dem User "_temp_" mit dem Passwort "_Welcome$23_" ein
+Nun öffnest du nun ein Browserfenster im Google Chrome und gibst oben im Suchfeld die eben aufgeschriebene Adresse ein.
 "_https://172.18....:8006_"
 Damit greifst du auf deinen Proxmox Server zu über das Netz. Hier werden wir dann einige spannende Dinge einrichten ;)
 
@@ -65,7 +66,7 @@ Dann auf "_ISO Images_" -> Upload -> Select File -> Downloads -> Klick auf ubunt
 
 Dann öffnet sich so ein Fenster, dass du einfach schliessen kannst, also nicht auf Download klicken.
 
-Klicke nun oben rechts auf Create [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) und kreeire eine [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) mit genau diesen Angaben 
+Klicke nun oben rechts auf Create [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) und kreiere eine [VM](https://de.wikipedia.org/wiki/Virtuelle_Maschine) mit genau diesen Angaben 
 
 - General:
   - Node: so belassen wie es ist
@@ -99,7 +100,7 @@ Super. Du hast nun deine erste [VM](https://de.wikipedia.org/wiki/Virtuelle_Masc
 Nun klickst du oben rechts in der Baumstruktur auf deine VM; 100 (Docker)
 Dort dann auf Console klicken.
 
-Nun "_Try or Install Ubuntu anwählen_".
+Nun "_Try or Install Ubuntu Server anwählen_".
 
 Folgendermassen gehst du nun durch die Installation deines Ubuntu-Servers
 1.  Sprache: English
