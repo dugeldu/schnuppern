@@ -238,6 +238,7 @@ Dafür müssen wir in die Konsole im Container drin.
 python3 manage.py createsuperuser
 ```
 - Bei Username gibst du "_admin_" an.
+- Bei Email einfach <kbd>Enter</kbd>
 - PW: "_Welcome.2022_" wie du es dir gewohnt bist ;)_" 
 
 Nun öffnest du nochmals einen neuen Tab im Chrome und tippst dort die IP von der VM und den entsprechenden Port, welcher in dem Fall 8010 ist ein.
