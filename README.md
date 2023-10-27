@@ -53,7 +53,7 @@ Damit greifst du auf deinen Proxmox Server zu über das Netz. Hier werden wir da
 Melde dich als "_root_" mit dem Passwort, dass du vorhin gesetzt hast an ("_Welcome.2022_")
 Du bist nun auf dem Webgui von [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE). Von hier aus kannst du Virtuelle Maschinen erstellen, konfigurieren, überwachen und vieles mehr. Schau dich gerne ein wenig um.
 
-Damit wir später eine VM kreeiren können, brauchen wir noch ein ISO-Image, das später auf der VM installiert werden soll. Wir nehmen dafür ein Ubuntu-Image, das ich bereits auf deinem Laptop platziert habe.
+Damit wir später eine VM kreiren können, brauchen wir noch ein ISO-Image, das später auf der VM installiert werden soll. Wir nehmen dafür ein Ubuntu-Image, das ich bereits auf deinem Laptop platziert habe.
 
 Diese musst du nur noch hochladen auf deinen Proxmox-Server. 
 Klicke dich dafür zunächst durch die Baumstruktur oben rechts.
