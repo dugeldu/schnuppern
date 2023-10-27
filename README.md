@@ -194,8 +194,18 @@ https://172...:9443
 Hier kannst du dich nun mit dem Benutzernamen "_admin_" und dem Passwort "_Welcome.2022_" anmelden.
 
 >**hier gibst du noch eine anleitung an von portainer bis compose**
+Nun bist du auf der Oberfläche von Portainer.
+Hier klickst du nun auf "_Get Started_".
+Danach wird dir eine Umgebung angezeigt namens "_local_".
+Öffne diese.
 
-
+Links hast du nun eine Menüleiste
+- Klick auf "_Stacks_"
+- Oben rechts dann auf "_Add Stack_"
+- Namen "_teststack_" definieren
+- Build Method auf "_Web editor_" belassen
+- Klick in den Web editor
+- 
 In diesem Feld wollen wir nun die Konfigurationen für dein erstes Docker-Projekt einfügen.
 Und zwar wollen wir mit einem Container einen Dienst namens [Paperless](<https://docs.paperless-ngx.com>) zum Laufen bringen
 
@@ -207,17 +217,4 @@ Dort klickst du auf "_Raw_".
 Nun öffnet sich ein Fenster mit all dem Geschriebenen.
 Jetzt klickst du <kbd>Ctrl + A</kbd>, danach <kbd>Ctrl + C</kbd> und dann gehst du wieder zu Portainer zurück und fügst das Ganze wieder in dieses Feld ein mit <kbd>Ctrl + V</kbd>.
 
-Nun gibst du dem erstellten Stack noch einen Namen, z.B "Teststack".
-
-Danach kannst du auf "_Deploy Stack_" und schon ist unser
-
-```
--p 8000:8000 \
-```
-
-```
-lscr.io/linuxserver/paperless-ngx:latest
-```
-
-Jetzt wollen wir mit einem Container einen Dienst namens [Paperless](<https://docs.paperless-ngx.com>) zum Laufen bringen
-Dafür gibst du folgende Befehle ein
+Danach kannst du auf "_Deploy Stack_".
