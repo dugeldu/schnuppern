@@ -31,7 +31,7 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 1.  Bei der EULA klickst du auf "I agree"
 1.  Beim nächsten Fenster kannst du unten auf "Next" klicken
 1.  Bei Location and Timezone bei Country "Switzerland" auswählen und beim Tastatur Layout auf "Swiss-German" und dann weiter auf "Next"
-1.  Als Passwort "Welcome.2022" setzen und das Passwort bei "Confirm Password" nochmals wiederholen und bei der Email "schnuppernbrienz@gmail.com" eingeben, dann "Next"
+1.  Als Passwort "Welcome.2024" setzen und das Passwort bei "Confirm Password" nochmals wiederholen und bei der Email "schnuppernbrienz@gmail.com" eingeben, dann "Next"
 1.  Netzwerkkonfiguration kannst du auch auf Standard belassen, also einfach auf "Next"
 1.  Zuletzt nun noch auf "Install"
 1.  Jetzt dauert es ein Bisschen, bis Proxmox installiert ist
@@ -44,13 +44,11 @@ Schreibe dir die IP-Adresse nun auf.
 https://IP:8006
 
 ## Installation VM
-
-Dort loggst du dich mit dem User "_temp_" mit dem Passwort "_Welcome$23_" ein
 Nun öffnest du nun ein Browserfenster im Google Chrome und gibst oben im Suchfeld die eben aufgeschriebene Adresse ein.
 "_https://172.18....:8006_"
 Damit greifst du auf deinen Proxmox Server zu über das Netz. Hier werden wir dann einige spannende Dinge einrichten ;)
 
-Melde dich als "_root_" mit dem Passwort, dass du vorhin gesetzt hast an ("_Welcome.2022_")
+Melde dich als "_root_" mit dem Passwort, dass du vorhin gesetzt hast an ("_Welcome.2024_")
 Du bist nun auf dem Webgui von [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE). Von hier aus kannst du Virtuelle Maschinen erstellen, konfigurieren, überwachen und vieles mehr. Schau dich gerne ein wenig um.
 
 Damit wir später eine VM kreieren können, brauchen wir noch ein ISO-Image, das später auf der VM installiert werden soll. Wir nehmen dafür ein Ubuntu-Image, das ich bereits auf deinem Laptop platziert habe.
@@ -119,7 +117,7 @@ Als finalen Schritt musst du nun die Benutzerangaben konfigurieren. Mache dies w
 - Name: Dein Name
 - Servername: docker
 - Username: sysadmin
-- Passwort: Welcome.2022
+- Passwort: Welcome.2024
 > **Hinweis: Überprüfe deine Angaben nochmals, und stelle sicher dass alles richtig ist. Womöglich sind Y und Z bei deinen Eingaben vertauscht**
 - Nachdem du deine Angaben korrigiert hast: Done
 - Upgrade: "_Skip for now_" -> Continue
