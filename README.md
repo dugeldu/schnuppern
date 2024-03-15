@@ -44,9 +44,6 @@ Schreibe dir die IP-Adresse nun auf.
 https://IP:8006
 
 ## Installation VM
-Nun kannst du den zweiten PC starten. 
-Gleichzeitig steckst das Displayportkabel, das Kabel der Maus und das der Tastatur vom linken in den rechten grossen PC.
-Wenn du Hilfe brauchst -> ungeniert fragen :)
 
 Dort loggst du dich mit dem User "_temp_" mit dem Passwort "_Welcome$23_" ein
 Nun öffnest du nun ein Browserfenster im Google Chrome und gibst oben im Suchfeld die eben aufgeschriebene Adresse ein.
