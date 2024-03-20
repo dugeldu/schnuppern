@@ -7,7 +7,7 @@ Schnuppern
 Informatiker EFZ Plattformentwicklung 
 
 Beaufsichtigung durch:
-Josia Nietlispach, Sören Stegitz
+Josia Nietlispach
  
 ## Auftrag:
 
