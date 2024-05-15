@@ -138,12 +138,9 @@ Sobald die Installation abgeschlossen ist, machst du folgendes:
 Nun müssen wir [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) installieren. In [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) werden später unsere Dienste laufen.
 Um [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zu installieren musst du die folgenden Befehle eingeben -> kopiere diese einfach ins Terminal hinein, abtippen dauert zu lange: 
 
-- Nun aktualisieren wir die Paketlisten
 ```
 sudo apt-get update
 ```
-
-- Jetzt führen wir Updates durch
 ```
 sudo apt-get upgrade
 ```
