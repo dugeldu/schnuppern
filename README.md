@@ -236,14 +236,14 @@ python3 manage.py createsuperuser
 
 Nun öffnest du nochmals einen neuen Tab im Chrome und tippst dort die IP von der VM und den entsprechenden Port, welcher in dem Fall 8010 ist ein.
 
-http://IP:8010
+http://172.18.68.x:8010
 
 Dort meldest du dich nun mit deinem vorhin erstellten User an.
 Nun solltest du die Oberfläche von Paperless sehen.
 
 - Jetzt klickst du rechts bei Upload new documents auf "_Browse files_"
 - Dann auf "_Desktop_"
-- Danach wählst du das "_Dokument.rtf_" an
+- Danach wählst du das "_Dokument.pdf_" an
 - Und dann auf "_öffnen_"
 - Unter Documents im Paperless, hast du nun dein erstes Dokument hochgeladen.
 - Herzlichen Glückwunsch ;)
