@@ -142,9 +142,6 @@ Um [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zu installieren m
 sudo apt-get update
 ```
 ```
-sudo apt-get upgrade
-```
-```
 sudo apt-get install ca-certificates curl gnupg lsb-release
 ```
 ```
