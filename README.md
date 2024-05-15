@@ -147,15 +147,12 @@ sudo apt-get update
 ```
 sudo apt-get upgrade
 ```
-- So installieren wir noch ein paar Tools 
 ```
 sudo apt-get install ca-certificates curl gnupg lsb-release
 ```
-- Hiermit erstellen wir ein Verzeichnis
 ```
 sudo mkdir -p /etc/apt/keyrings
 ```
-- Mit folgendem Befehl installieren wir eine Datei aus dem Internet und speichern diese in dem Verzeichnis, das wir erstellt haben vorhin
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
