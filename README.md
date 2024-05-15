@@ -188,7 +188,7 @@ Damit hast du nun deinen ersten Container erstellt, auf welchem nun Portainer l�
 ## Konfiguration Portainer
 Nun kannst du auf dem PC, wo du das Proxmox-Webinterface geöffnet hast, ein weiteres Browserfenster öffnen.
 Dort gibst du nun die aufgeschriebene IP deiner VM ein mit dem Port 9443
-https://172...:9443
+https://172.18.68.x:9443
 
 Hier kannst du dich nun mit dem Benutzernamen "_admin_" und dem Passwort "_Welcome.2024_" anmelden.
 
@@ -212,14 +212,9 @@ Dafür machst du folgendes
 - klick <kbd>Windows + E</kbd>
 - gehe zu "_Dokumente_"
 - Öffne nun das paperless.txt-File
-- Nun klickst du <kbd>Windows + A</kbd> und markierst den Link in dem File
-- Danach klickst du <kbd>Ctrl + C</kbd> um den Link dann zu kopieren
-- Nun öffnest du im Google Chrome nochmals einen Tab und klickst <kbd>Ctrl + V</kbd> und <kbd>Enter</kbd>
-- Jetzt landest du auf einer Seite, wo wir ein vorgefertigtes Compose-File haben
-- Dort klickst du auf "_Raw_".
-- Nun öffnet sich ein Fenster mit all dem Geschriebenen.
-- Jetzt klickst du <kbd>Ctrl + A</kbd>, danach <kbd>Ctrl + C</kbd> und dann gehst du wieder zu Portainer zurück und fügst 
-  das Ganze in den Web-Editor ein mit <kbd>Ctrl + V</kbd>.
+- Nun klickst du <kbd>Windows + A</kbd> und markierst alles
+- Danach klickst du <kbd>Ctrl + C</kbd> um es zu kopieren
+- Dann gehst du wieder zu Portainer zurück und fügst das Ganze in den Web-Editor ein mit <kbd>Ctrl + V</kbd>.
 
 Danach kannst du auf "_Deploy the Stack_" ganz unten
 
