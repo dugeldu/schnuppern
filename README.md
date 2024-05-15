@@ -26,13 +26,13 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 
 1.  Nimm den von uns zur Verfügung gestellten USB Stick und stecke ihn in einen USB Port des PCs.
 1.  Boote nun von dem USB Stick. Um das zu tun starte den PC und drücke während des startens mehrmals die F12 Taste. Dies machst du solang bis du in das sogenannte Boot Menu kommst.
-1.  Hier kannst du nun mit Pfeiltasten navigieren. Navigiere nach unten bis du bei UEFI USB SanDisk.... landest und bestätige dies mit <kbd>Enter</kbd>
+1.  Hier kannst du nun mit Pfeiltasten navigieren. Navigiere nach unten bis du bei UEFI: USB landest und bestätige dies mit <kbd>Enter</kbd>
 1.  Sobald [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) gestartet hat kannst du auf "Install Proxmox VE (Graphical)" drücken
 1.  Bei der EULA klickst du auf "I agree"
 1.  Beim nächsten Fenster kannst du unten auf "Next" klicken
 1.  Bei Location and Timezone bei Country "Switzerland" auswählen und beim Tastatur Layout auf "Swiss-German" und dann weiter auf "Next"
 1.  Als Passwort "Welcome.2024" setzen und das Passwort bei "Confirm Password" nochmals wiederholen und bei der Email "schnuppernbrienz@gmail.com" eingeben, dann "Next"
-1.  Netzwerkkonfiguration kannst du auch auf Standard belassen, also einfach auf "Next"
+1.  Netzwerkkonfiguration kannst du bei ipv4 die folgende Adresse eingeben: "172.18.68.38", dann auf "Next"
 1.  Zuletzt nun noch auf "Install"
 1.  Jetzt dauert es ein Bisschen, bis Proxmox installiert ist
 2.  Dann auf "_Reboot_"
@@ -40,12 +40,10 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 
 Glückwunsch. Du hast erfolgreich [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) konfiguriert.
 Auf dem Proxmox-Server steht nun die Anweisung, dass du über den Webbrowser auf das Webgui von Proxmox gehen sollst.
-Schreibe dir die IP-Adresse nun auf.
-https://IP:8006
 
 ## Installation VM
-Nun öffnest du nun ein Browserfenster im Google Chrome und gibst oben im Suchfeld die eben aufgeschriebene Adresse ein.
-"_https://172.18....:8006_"
+Nun öffnest du nun ein Browserfenster im Google Chrome und gibst oben im Suchfeld die Adresse, die auf dem Proxmox-Server steht ein.
+"_https://172.18.68.38:8006_"
 Damit greifst du auf deinen Proxmox Server zu über das Netz. Hier werden wir dann einige spannende Dinge einrichten ;)
 
 Melde dich als "_root_" mit dem Passwort, dass du vorhin gesetzt hast an ("_Welcome.2024_")
@@ -58,7 +56,7 @@ Klicke dich dafür zunächst durch die Baumstruktur oben rechts.
 Datacenter > pve
 
 Dort auf "_local (pve)_" klicken.
-Dann auf "_ISO Images_" -> Upload -> Select File -> Downloads -> Klick auf ubuntu-22.04.3-live-server-amd64 -> "_öffnen_" -> "_Upload_".
+Dann auf "_ISO Images_" -> Upload -> Select File -> Downloads -> Klick auf ubuntu-22.04.4-live-server-amd64 -> "_öffnen_" -> "_Upload_".
 
 Dann öffnet sich so ein Fenster, dass du einfach schliessen kannst, also nicht auf Download klicken.
 
@@ -71,7 +69,7 @@ Klicke nun oben rechts auf Create [VM](https://de.wikipedia.org/wiki/Virtuelle_M
   - Resource Pool: leer lassen
 - OS:
   - Storage: local
-  - ISO-Image: ubuntu-22.04.1-live-server-amd64.iso
+  - ISO-Image: ubuntu-22.04.4-live-server-amd64.iso
   - Type: Linux
   - Version: 6.x -2.6 Kernel
 - System:
@@ -142,6 +140,10 @@ Um [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zu installieren m
 
 ```
 sudo apt-get update
+```
+
+```
+sudo apt-get upgrade
 ```
 
 ```
