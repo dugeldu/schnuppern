@@ -216,7 +216,7 @@ Dafür machst du folgendes
 Danach kannst du auf "_Deploy the Stack_" ganz unten
 
 ---
-Nun wollen wir noch einen User generieren für dein Paperless
+Nun wollen wir noch einen User generieren für dein Paperless.
 Dafür müssen wir in die Konsole im Container drin.
 - Klick auf "_Containers_" in Portainer
 - Dann klickst du auf "_teststack-webserver..._"
