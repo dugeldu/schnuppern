@@ -166,7 +166,7 @@ sudo apt-get update
 
 
 ```
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo apt-get install docker-ce=5:25.0.0-1~ubuntu.22.04~jammy docker-ce-cli=5:25.0.0-1~ubuntu.22.04~jammy containerd.io docker-compose-plugin
 ```
 
 ```
