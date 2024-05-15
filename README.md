@@ -138,24 +138,24 @@ Sobald die Installation abgeschlossen ist, machst du folgendes:
 Nun müssen wir [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) installieren. In [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) werden später unsere Dienste laufen.
 Um [Docker](<https://de.wikipedia.org/wiki/Docker_(Software)>) zu installieren musst du die folgenden Befehle eingeben -> kopiere diese einfach ins Terminal hinein, abtippen dauert zu lange: 
 
+- Nun aktualisieren wir die Paketlisten
 ```
 sudo apt-get update
 ```
-- Aktualisiert Paketlisten
 
+- Jetzt führen wir Updates durch
 ```
 sudo apt-get upgrade
 ```
-- ddf
-
+- So installieren wir noch ein paar Tools 
 ```
 sudo apt-get install ca-certificates curl gnupg lsb-release
 ```
-
+- Hiermit erstellen wir ein Verzeichnis
 ```
 sudo mkdir -p /etc/apt/keyrings
 ```
-
+- Mit folgendem Befehl installieren wir eine Datei aus dem Internet und speichern diese in dem Verzeichnis, das wir erstellt haben vorhin
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
@@ -164,10 +164,6 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-```
-
-```
-sudo apt-get update
 ```
 
 ```
