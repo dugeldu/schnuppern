@@ -209,7 +209,7 @@ Dafür machst du folgendes
 - klick <kbd>Windows + E</kbd>
 - gehe zu "_Dokumente_"
 - Öffne nun das paperless.txt-File
-- Nun klickst du <kbd>Windows + A</kbd> und markierst alles
+- Nun klickst du <kbd>Ctrl + A</kbd> und markierst alles
 - Danach klickst du <kbd>Ctrl + C</kbd> um es zu kopieren
 - Dann gehst du wieder zu Portainer zurück und fügst das Ganze in den Web-Editor ein mit <kbd>Ctrl + V</kbd>.
 
