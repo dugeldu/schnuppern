@@ -22,10 +22,13 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 1.  Beim nächsten Fenster kannst du unten auf "Next" klicken
 1.  Bei Location and Timezone bei Country "Switzerland" auswählen und beim Tastatur Layout auf "Swiss-German" und dann weiter auf "Next"
 1.  Als Passwort "Welcome2024" setzen und das Passwort bei "Confirm Password" nochmals wiederholen und bei der Email "schnuppernbrienz@gmail.com" eingeben, dann "Next"
-1.  Netzwerkkonfiguration kannst du bei ipv4 die folgende Adresse eingeben: "172.18.68.38", dann auf "Next"
-1.  Zuletzt nun noch auf "Install"
-1.  Jetzt dauert es ein Bisschen, bis Proxmox installiert ist
-2.  Dann auf "_Reboot_"
+1.  Bei der Netzwerkkonfiguration kannst du folgendes angeben:
+    - Hostname (FQDN): pve.brienz.schnuppern
+    - IP-Adress (CIDR): 172.18.38.38 / 18
+    - Gateway: 172.18.64.1
+    - DNS-Server: 10.108.41.138
+2.  Zuletzt nun noch auf "Install"
+3.  Jetzt dauert es ein Bisschen, bis Proxmox installiert ist
 ---
 
 Glückwunsch. Du hast erfolgreich [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) konfiguriert.
