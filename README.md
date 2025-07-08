@@ -14,7 +14,6 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 
 ## Installation Proxmox:
 
-<<<<<<< HEAD
 - Nimm den von uns zur Verfügung gestellten USB Stick und stecke ihn in einen USB Port des PCs.
 - Nun startest du den PC.
 
@@ -30,30 +29,13 @@ Wir fangen mit der Installation von [Proxmox](https://de.wikipedia.org/wiki/Prox
 - Zuletzt nun noch auf "Install"
 - Jetzt dauert es ein Bisschen, bis Proxmox installiert ist
 - Dann auf "_Reboot_".
-=======
-1.  Nimm den von uns zur Verfügung gestellten USB Stick und stecke ihn in einen USB Port des PCs.
-1.  Boote nun vom USB Stick. Um das zu tun starte den PC und drücke während des startens mehrmals die F12 Taste. Dies machst du solang bis du in das sogenannte Boot Menu kommst.
-1.  Hier kannst du nun mit Pfeiltasten navigieren. Navigiere nach unten bis du bei UEFI: USB landest und bestätige dies mit <kbd>Enter</kbd>
-1.  Sobald [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) gestartet hat, kannst du auf "Install Proxmox VE (Graphical)" drücken
-1.  Bei der EULA klickst du auf "I agree"
-1.  Beim nächsten Fenster kannst du unten auf "Next" klicken
-1.  Bei Location and Timezone bei Country "Switzerland" auswählen und beim Tastatur Layout auf "Swiss-German" und dann weiter auf "Next"
-1.  Als Passwort "Welcome2024" setzen und das Passwort bei "Confirm Password" nochmals wiederholen und bei der Email "schnuppernbrienz@gmail.com" eingeben, dann "Next"
-1.  Bei der Netzwerkkonfiguration kannst du folgendes angeben:
-    - Hostname (FQDN): pve.brienz.schnuppern
-    - IP-Adress (CIDR): 172.18.38.38 / 18
-    - Gateway: 172.18.64.1
-    - DNS-Server: 10.108.41.138
-2.  Zuletzt nun noch auf "Install"
-3.  Jetzt dauert es ein Bisschen, bis Proxmox installiert ist
->>>>>>> 0ed5121e7259c0a42b904cf49729e5a1429490e5
+
 ---
 
 Glückwunsch. Du hast erfolgreich [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE) konfiguriert.
 Auf dem Proxmox-Server steht nun die Anweisung, dass du über den Webbrowser auf das WebGUI von Proxmox gehen sollst.
 
 ## Installation VM
-<<<<<<< HEAD
 
 > **_INFO💡_**
 > Auf dem PC links von dir hast du nun Proxmox installiert und die Umgebung läuft nun auf dieser Maschine. Wir wollen nun von einem anderen Computer aus darauf zugreifen, konkret vom Laptop aus.
@@ -67,20 +49,6 @@ Auf dem Proxmox-Server steht nun die Anweisung, dass du über den Webbrowser auf
 > **_INFO💡_**
 > Nun kommt die Meldung "Dies ist keine sichere Verbindung" mit dem Vermerk, dass hier sensible Daten gestohlen werden könnten. 
 > Dies ist an und für sich keine Fehlinformation, jedoch ist das hier nicht relevant, unter Anderem, da wir hier keine heiklen Daten austauschen und sich der Server in unserem Netz befindet. Damit ein Angreifer also Daten stehlen könnte, müsste er zuerst auf unser Netz zugreifen können. Wenn du allerdings im Internet auf Seiten stösst mit dieser Warnung gilt es, diese Ernst zu nehmen. Ungesicherte Webseiten sind zu vermeiden. In unserer Schnupper-Laborumgebung kannst du diese Warnung jedoch umgehen, indem du unten auf "Erweitert" und dann auf den unterstrichenen und blau markierten Text "Weiter zu ..ip.." klickst.
-=======
-Nun öffnest du ein Browserfenster in Google Chrome und gibst oben im Suchfeld die Adresse, die beim Proxmox-Server steht, ein.
-"_https://172.18.68.38:8006_"
-Damit greifst du auf deinen Proxmox Server zu über das Netz. Hier werden wir einige spannende Dinge einrichten ;)
-
-Melde dich als "_root_" mit dem Passwort an, dass du vorhin gesetzt hast ("_Welcome2024_")
-Du bist nun auf dem WebGUI von [Proxmox](https://de.wikipedia.org/wiki/Proxmox_VE). Von hier aus kannst du VMs erstellen, konfigurieren, überwachen und vieles mehr. Schau dich gerne ein wenig um.
-
-Damit wir später eine VM kreieren können, brauchen wir noch ein ISO-Image. Wir nehmen dafür ein Ubuntu-Image, das ich bereits auf deinem Laptop platziert habe.
-
-Dieses musst du nur noch auf deinen Proxmox-Server hochladen. 
-Klicke dich dafür zunächst durch die Baumstruktur oben rechts.
-Datacenter > pve
->>>>>>> 0ed5121e7259c0a42b904cf49729e5a1429490e5
 
 **Voila! Der Zugriff auf den Proxmox-Server hat nun geklappt. Gratulation**
 
